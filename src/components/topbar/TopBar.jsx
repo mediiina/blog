@@ -17,9 +17,9 @@ export default function TopBar() {
               <Link className="link" to="/">HOME</Link>
               </li>
             <li className="topListItem">
-              <Link className="link" to="/">ABOUT</Link></li>
+              <Link className="link" to="/about">ABOUT</Link></li>
             <li className="topListItem">
-              <Link className="link" to="/">WRITE</Link></li>
+              <Link className="link" to="/write">WRITE</Link></li>
             <li className="topListItem">
               {user && "LOGOUT"}
               </li>
